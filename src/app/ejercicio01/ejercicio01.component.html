@@ -1,0 +1,24 @@
+<h1>Ejercicio 01</h1>
+
+
+<br><br>
+<input type="text" [(ngModel)]='title'><br><br>
+<!-- <input type="text" [(ngModel)]='myUsuario.nombre'> -->
+<h4>Edad 1</h4>
+<input type="number" [(ngModel)]='edadUno' placeholder="Ingrese edad 1">
+<br>
+<h4>Edad 2<h4>
+<input type="number" [(ngModel)]='edadDos' placeholder="Ingrese edad 2">
+<br>
+<h4>Suma</h4>
+<input type="number" [(ngModel)]='suma'>
+<br>
+<h4>Promedio</h4>
+<input type="number" [(ngModel)]='promedio'>
+<br>
+<input type="button" (click)='calcular()' value="Calcular">
+<br>
+<br>
+<input type="button" (click)='limpiar()' value="Limpiar">
+<br>
+<br>
